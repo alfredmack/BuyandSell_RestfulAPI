@@ -18,11 +18,13 @@ What things you need to run this scripts
 ## Usage
 
  localhost: http://replace_with_your_ip/BuyandSell_RestfulAPI/login.php
+ 
  online   : http://coict.alfadroid.com/BuyandSell/login.php
 ```console
  [username:'username',password:'password']
 ```
 localhost : http://replace_with_your_ip/BuyandSell_RestfulAPI/register.php
+
 online    : http://coict.alfadroid.com/BuyandSell/register.php
 
 ```console
