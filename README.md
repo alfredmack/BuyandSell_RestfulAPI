@@ -30,6 +30,13 @@ online    : http://coict.alfadroid.com/BuyandSell/register.php
 ```console
   [fname:'fname',lname:'lname',email:'email',gender:'gender',username:'user',password:'pass']
 ```
+localhost : http://replace_with_your_ip/BuyandSell_RestfulAPI/get_profile.php
+
+online    : http://coict.alfadroid.com/BuyandSell/get_profile.php
+
+```console
+  [username:'user']
+```
  
 
 ## Authors
