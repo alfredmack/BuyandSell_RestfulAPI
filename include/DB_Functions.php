@@ -55,7 +55,7 @@ class DB_Functions {
         
        $result = mysqli_query($this->conn,"INSERT INTO login_tb(username,password) VALUES('$username', '$password')");
         
-    if (!mysql_error()) {
+    if (!mysqli_error()) {
         
         mysqli_query($this->conn,"INSERT INTO users_tb(fname,lname,email,gender,username) VALUES('$fname', '$lname','$email','$gender','$username')");
         $response["success"] = 1;
